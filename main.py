@@ -47,7 +47,6 @@ for point1index in range(0,len(points)-1):
     if(pointsInside==0):
       availablePoints.append([radius,circleCenterPoint])
       
-print(availablePoints)
 
 #Make sure circles are in the square
 toRemove=[]
